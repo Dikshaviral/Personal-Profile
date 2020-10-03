@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background-image: url(images/rn.jpg);
+    background-size: cover;
+    font-family: 'Amatic SC', cursive;
+}
+.abtbox
+{   margin: 0px;
+    padding-top: 0px;
+    height: 800px;
+    width: 1200px;
+    background-color: black;
+}
+.tex1,.tex2
+{
+  color: blanchedalmond;
+}
+.tex1
+{   position: absolute;
+    top:100px;
+    left:120px;
+    font-size: 80px;
+}
+
+.tex2
+{   position: absolute;
+    top:250px;
+    left:120px;
+    font-size: 60px;
+
+}
+a{
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 340px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover {
+    text-shadow: 0px 10px 10px #ffffff;
+  }
+  h1,
+  p {
+    animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }

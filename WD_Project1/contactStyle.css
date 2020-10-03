@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    background-image: url(images/phn.jpg);
+    background-size: cover;
+    font-family: 'Amatic SC', cursive;
+}
+div{
+    padding-top: 0px;
+    background-color: black;
+    height: 800px;
+    width: 1000px;
+    clip-path: circle(71.9% at 18% 23%);
+    color: blanchedalmond;
+   
+}
+h1{
+   position: absolute;
+   top:40px;
+   left: 200px;
+   font-size: 110px;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+h2{
+ font-size: 70px;
+ position: absolute;
+ top: 170px;
+ left: 10px;
+ 
+}
+.list
+{
+    font-size: 50px;
+    position: absolute;
+    top:300px;
+    left:60px;
+    list-style-type: none;
+}
+.insta
+{
+    position: absolute;
+    top:365px;
+    left:60px;
+}
+.whtts
+{
+    position: absolute;
+    top:420px;
+    left:50px;
+}
+.gmail
+{
+    position: absolute;
+    top:495px;
+    left:50px;
+
+}
+a{
+    position: absolute;
+    top:30px;
+    right: 50px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0px 10px 10px gray;
+  }
+
+  @media only screen and (max-width: 1024px)
+  {
+      body {
+          background-image: url("images/phn2.jpg");
+          background-size: cover;
+
+      }
+      .abtbox
+      {
+          background-color: #262323;
+          height: 700px;
+          clip-path: circle(76.9% at 23% 22%);
+      }
+      h2
+      {
+        position:absolute;
+        left:30px;
+      }
+      a{
+         color:blanchedalmond;
+         position :absolute;
+         top:1280px;
+      }
+
+  }

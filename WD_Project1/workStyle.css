@@ -1,0 +1,99 @@
+body
+{
+    margin:0px;
+    background-image: url(images/wk.jpg);
+    background-size: cover;
+}
+.outer{
+    position: absolute;
+    right: 0px;
+    height: 800px;
+    width: 1000px;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Amatic SC', cursive;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+h1{
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    font-size: 80px;
+}
+.list
+{
+    position: absolute;
+    top: 195px;
+    right: 120px;
+    font-size:45px ;
+    
+}
+ul {
+    list-style: none; 
+  }
+  ul li::before {
+    content: "\2022";  
+    color: blanchedalmond; 
+    font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+  }
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top:20px;
+    left: 50px;
+    font-family: 'Amatic SC', cursive;
+  
+}
+a:hover {
+    text-shadow: 0px 10px 10px gray;
+  }
+  h1,
+  ul{
+    animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @media only screen and (max-width: 1024px)
+    {
+      .outer
+      {
+        clip-path: polygon(51% 66%, 100% 48%, 100% 0, 0 0, 0 48%);
+        height:1366px;
+        width:1024px;
+      }
+      .list
+{
+    position: absolute;
+    top: 250px;
+    right: autopx;
+    font-size:50px ;
+
+    
+}
+h1{
+    position: absolute;
+    top: 40px;
+    right: 350px;
+    font-size: 100px;
+}
+
+a{
+  postion: absolute;
+  top:1270px;
+  font-size:60px;
+  
+}
+}
